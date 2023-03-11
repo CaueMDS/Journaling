@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: 'M PLUS 2';
+}
+
+/*1° Sessão*/
+
+.esquerda{
+    background-color: #F9A825;
+    width: 55%;
+    height: 734px;
+    text-align: center;
+}
+
+.esquerda img{
+    width: 80%;
+    padding-top: 100px;
+}
+
+/*2° Sessão*/
+
+.direita{
+    width: 45%;
+    background-color: #3F3F3F;
+    color: #fff;
+}
+
+/*2° Sessão - Cabeçalho*/
+
+.logo{
+    font-family: 'Arial';
+    font-weight: 600;
+    font-size: 96px;
+}
+
+.cabecalho{
+    text-align: center;
+    padding: 80px 0;
+}
+
+/*2° Sessão - Conteúdo*/
+
+h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+.conteudo{
+    width: 80%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #3F3F3F;
+    color: #fff;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+a{
+    color: #F9A825;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.btn{
+    font-size: 30px;
+    width: 230px;
+    height: 55px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #F9A825;
+    color: #fff;
+    text-align: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #d28e1f;
+}
+
+/*2° Sessão - Rodapé(footer)*/
+.rodape{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.rodape p{
+    font-size: 19px;
+}
+
+
+
+

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    font-family: 'M PLUS 2';
+    color: #fff;
+}
+
+.detalhe{
+    height: 800px;
+    width: 64px;
+    background-color: #F9A825;
+}
+
+.formulario{
+    width: 45%;
+    background-color: #3F3F3F;
+}
+
+.conteudo{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #3F3F3F;
+    color: #fff;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.btn{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    width: 230px;
+    height: 55px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    background-color: #F9A825;
+    margin-top: 30px;
+    width: 230px;
+    height: 55px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #d28e1f;
+}
+
+.detalhes{
+    text-align: center;
+    background-color: #3F3F3F;
+    width: 54%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.detalhes *{
+    margin-top: 80px;
+}
+
+.logo{
+    font-family: 'Arial';
+    font-weight: 600;
+    font-size: 96px;
+}
+
+.detalhes img{
+    width: 80%;
+}
