@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Anotações</title>
+    </head>
+    <body>
+        <header>
+            <a class="voltar" href="home.html">&lt</a>
+            <h1>Anotações</h1>
+            <ul>
+                <a href="#"><img src="img/iconConfig.png" alt=""></a>
+                <a href="#"><img src="img/IconPerfil.png" alt=""></a>
+            </ul>
+        </header>
+        <main>
+            <div id="annotations">
+                <form action="">
+                    <section>
+                        <input type="text" id="titulo" placeholder="Título">
+                        <input type="date" id="data">
+                    </section>
+                    <textarea name="" id="descAnnotation" cols="30" rows="10"></textarea>
+                    <section class="btns">
+                        <div id="descartar" onclick="closeAnnotation()">Descartar</div>
+                        <input type="submit" value="Salvar" id="saveAnnotation">
+                    </section>
+                </form>
+            </div>
+            <div id="abrirAnotacao" onclick="openAnnotation()">+</div>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'M PLUS 2';
+    color: #fff;
+    background-color: #3F3F3F;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#annotations form{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+    clip-path: circle(0.0% at 100% 100%);
+    transition: 0.7s;
+}
+
+#annotations form.open{
+    clip-path: circle(141.9% at 100% 100%);
+}
+
+#titulo, #data{
+    background-color: #3F3F3F;
+    border: #fff solid 1px;
+    border-radius: 5px;
+    height: 48px;
+    font-size: 24px;
+    color: #fff;
+}
+
+#titulo{
+    width: 724px;
+    padding-left: 20px;
+}
+
+#data{
+    width: 275px;
+}
+
+textarea{
+    width: 65.5%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 610px;
+}
+
+#descartar, #saveAnnotation{ 
+    cursor: pointer;
+    font-size: 36px;
+}
+
+#saveAnnotation{
+    width: 230px;
+    background-color: #F9A825;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+#abrirAnotacao, .voltar{
+    font-size: 48px;
+    background-color: #D9D9D9;
+    color: #F9A825;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#abrirAnotacao{
+    position: absolute;
+    left: 1270px;
+    top: 600px;
+}
+
+
+
+
